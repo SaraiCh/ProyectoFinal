@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ItemHamburguesa">
+    tools:context=".item_hamburguesa">
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cvMisCompras"
         android:layout_width="match_parent"
@@ -59,14 +59,6 @@
                         android:textColor="#302E2E"
                         android:textSize="18sp"
                         android:textStyle="bold" />
-
-                    <ImageView
-                        android:id="@+id/btnEliminarPCarrito"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_centerVertical="true"
-                        android:src="@drawable/ic_borrar" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -84,39 +76,15 @@
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/btnDecrease"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_toStartOf="@id/edtCantidad"
-                        android:background="#F4F2F2"
-                        android:src="@drawable/ic_menos_" />
-
-                    <EditText
-                        android:id="@+id/edtCantidad"
-                        android:layout_width="50dp"
-                        android:layout_height="35dp"
-                        android:layout_toStartOf="@id/btnAdd"
-                        android:inputType="none"
-                        android:editable="false"
-                        android:focusable="false"
-                        android:clickable="false"
-                        android:text="5"
-                        android:textAlignment="center"
-                        android:textSize="15sp"  />
-
-                    <ImageView
-                        android:id="@+id/btnAdd"
+                    <CheckBox
+                        android:id="@+id/checkcarrito"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
-                        android:background="#F4F2F2"
-                        android:src="@drawable/ic_mas"/>
-
+                        android:layout_marginEnd="30dp"
+                        android:text="Añadir al carrito" />
                 </RelativeLayout>
             </LinearLayout>
         </RelativeLayout>
-
     </com.google.android.material.card.MaterialCardView>
-
 </LinearLayout>

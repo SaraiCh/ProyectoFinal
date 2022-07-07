@@ -5,10 +5,9 @@ public class ListElementHamburguesa {
     private Double Precio;
     private int Image_hamburguesa;
 
-    public ListElementHamburguesa(String nombreHamburguesa, Double precio, int image_hamburguesa) {
+    public ListElementHamburguesa(String nombreHamburguesa, Double precio) {
         NombreHamburguesa = nombreHamburguesa;
         Precio = precio;
-        Image_hamburguesa = image_hamburguesa;
     }
 
     public String getNombreHamburguesa() {

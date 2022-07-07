@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".intfz_hamburguesa2">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="625dp"
+        android:text="HAMBURGUESAS"
+        android:textStyle="bold"
+        android:textColor="@color/verde1"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imgKangreburger"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="512dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/kagre" />
+
+    <TextView
+        android:id="@+id/txtNombrehKargreburger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="583dp"
+        android:text="KangreBurger"
+        android:textColor="#302E2E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cant1"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="516dp"
+        android:inputType="number"
+        android:hint="cantidad" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkcarrito1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="514dp"
+        android:text="carrito"
+        android:onClick="carrito1"
+        android:backgroundTint="@color/verde1"/>
+
+    <TextView
+        android:id="@+id/txtPreciokangreburger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="556dp"
+        android:text="S/. 20.00"
+        android:textColor="#302E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgsimple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="379dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hamburguesasimple" />
+
+    <TextView
+        android:id="@+id/txtNombrehSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="447dp"
+        android:text="Hamburguesa Simple"
+        android:textColor="#302E2E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cant2"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="390dp"
+        android:inputType="number"
+        android:hint="cantidad" />
+
+    <TextView
+        android:id="@+id/txtPrecioSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="418dp"
+        android:text="S/. 20.00"
+        android:textColor="#302E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkcarrito2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="376dp"
+        android:text="CARRITO"
+        android:onClick="carrito2"
+        android:backgroundTint="@color/verde1"/>
+
+    <ImageView
+        android:id="@+id/imgmonster"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="246dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hamburguesamonstruo" />
+
+    <TextView
+        android:id="@+id/txtNombrehMonter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="317dp"
+        android:text="Hamburguesa Monster"
+        android:textColor="#302E2E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cant3"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="265dp"
+        android:inputType="number"
+        android:hint="cantidad" />
+
+    <TextView
+        android:id="@+id/txtPreciohMonster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="291dp"
+        android:text="S/. 20.00"
+        android:textColor="#302E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkcarrito3"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="246dp"
+        android:text="CARRITO"
+        android:onClick="carrito3"
+        android:backgroundTint="@color/verde1"/>
+
+    <ImageView
+        android:id="@+id/imgVegana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="118dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hamburguesavegana" />
+
+    <TextView
+        android:id="@+id/txtNombrehVegan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginBottom="188dp"
+        android:text="Opcion Vegana"
+        android:textColor="#302E2E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cant4"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="136dp"
+        android:inputType="number"
+        android:hint="cantidad" />
+
+    <TextView
+        android:id="@+id/txtPreciohVegana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="156dp"
+        android:text="S/. 20.00"
+        android:textColor="#302E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkcarrito4"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="116dp"
+        android:text="CARRITO"
+        android:onClick="carrito4"
+        android:backgroundTint="@color/verde1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+        android:onClick="gotocarrito"
+        android:text="IR AL CARRITO"
+        android:backgroundTint="@color/verde1"/>
+
+</RelativeLayout>

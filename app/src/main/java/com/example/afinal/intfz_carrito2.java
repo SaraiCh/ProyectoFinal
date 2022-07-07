@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ItemHamburguesa extends AppCompatActivity {
+public class intfz_carrito2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_item_hamburguesa);
+        setContentView(R.layout.activity_intfz_carrito2);
     }
 }

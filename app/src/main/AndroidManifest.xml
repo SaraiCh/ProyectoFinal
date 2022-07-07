@@ -14,10 +14,22 @@
         android:theme="@style/Theme.Final"
         tools:targetApi="31">
         <activity
-            android:name=".interfaz_principal_hamburguesa"
+            android:name=".intfz_carrito2"
             android:exported="false" />
         <activity
-            android:name=".ItemHamburguesa"
+            android:name=".intfz_hamburguesa2"
+            android:exported="false" />
+        <activity
+            android:name=".interfaz_hamburguesa"
+            android:exported="false" />
+        <activity
+            android:name=".item_hamburguesa"
+            android:exported="false" />
+        <activity
+            android:name=".interfaz_carrito"
+            android:exported="false" />
+        <activity
+            android:name=".ItemCarrito"
             android:exported="false" />
         <activity
             android:name=".menu_pagos"

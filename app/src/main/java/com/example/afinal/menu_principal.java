@@ -15,7 +15,7 @@ public class menu_principal extends AppCompatActivity {
     }
 
     public void run_menu(View view) {
-        Intent i_menu = new Intent(this,menu_platos.class);
+        Intent i_menu = new Intent(this,intfz_hamburguesa2.class);
         startActivity(i_menu);
     }
 

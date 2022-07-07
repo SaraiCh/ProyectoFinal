@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".interfaz_principal_hamburguesa">
+    android:background="@drawable/background2"
+    tools:context=".interfaz_carrito">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,7 +28,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
-                    android:text="HAMBURGUESAS"
+                    android:text="CARRITO"
                     android:textColor="@color/verde4"
                     android:textSize="40sp"
                     android:textStyle="bold" />
@@ -38,18 +39,23 @@
                     android:layout_height="match_parent"
                     android:layout_margin="5dp" />
 
-                <Button
-                    android:id="@+id/btnFinalizarCompra"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:backgroundTint="#9AB2FF59"
-                    android:text="CARRITO"
-                    android:textColor="#FFFFFF"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:gravity="center_horizontal"
+        android:id="@+id/txttotal"/>
+    <Button
+        android:id="@+id/btnFinalizarCompra"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#9AB2FF59"
+        android:text="FINALIZAR PEDIDO"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 </LinearLayout>
