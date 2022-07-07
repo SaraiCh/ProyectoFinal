@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_menu_informacion.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_menu_pagos.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_menu_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_ventana_crear_cuenta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_ventana_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_ventana_reserva.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aless/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/aless/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_menu_platos.xml" value="0.1" />
+        <entry key="..\:/Users/aless/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_menu_principal.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/aless/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_ventana_crear_cuenta.xml" value="0.22" />
+        <entry key="..\:/Users/aless/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_ventana_login.xml" value="0.18" />
+        <entry key="..\:/Users/aless/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_ventana_reserva.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/aless/Downloads/proyectofinal-feature-segundoStash-20220623T182045Z-001/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_main.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/aless/Downloads/proyectofinal-feature-segundoStash-20220623T182045Z-001/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_menu_informacion.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/aless/Downloads/proyectofinal-feature-segundoStash-20220623T182045Z-001/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_menu_pagos.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/aless/Downloads/proyectofinal-feature-segundoStash-20220623T182045Z-001/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_menu_principal.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/aless/Downloads/proyectofinal-feature-segundoStash-20220623T182045Z-001/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_ventana_crear_cuenta.xml" value="0.21" />
+        <entry key="..\:/Users/aless/Downloads/proyectofinal-feature-segundoStash-20220623T182045Z-001/proyectofinal-feature-segundoStash/app/src/main/res/layout/activity_ventana_login.xml" value="0.16576086956521738" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/debug/res/drawable/ic_mas.xml" value="0.1585" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/debug/res/drawable/ic_menos_.xml" value="0.1585" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1585" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/drawable/ic_borrar.xml" value="0.1585" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_interfaz_principal_hamburguesa.xml" value="0.16485507246376813" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_item_hamburguesa.xml" value="0.22" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/release/res/drawable/ic_menos.xml" value="0.1585" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

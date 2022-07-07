@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_principal">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu"
+        style="@style/Botones_menuPrincipal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="388dp"
+        android:onClick="run_menu"
+        android:text="@string/Btnmenu" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Botones_menuPrincipal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="291dp"
+        android:text="@string/Btnreserva"
+        android:id="@+id/reserva"
+        android:onClick="run_reserva"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/información"
+        style="@style/Botones_menuPrincipal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="188dp"
+        android:onClick="run_informacion"
+        android:text="@string/Btninfo" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Botones_menuPrincipal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="89dp"
+        android:text="@string/Btnop_pago"
+        android:id="@+id/op_pago"
+        android:onClick="run_op_pago"/>
+
+</RelativeLayout>

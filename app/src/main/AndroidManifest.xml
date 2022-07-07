@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.afinal">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final"
+        tools:targetApi="31">
+        <activity
+            android:name=".interfaz_principal_hamburguesa"
+            android:exported="false" />
+        <activity
+            android:name=".ItemHamburguesa"
+            android:exported="false" />
+        <activity
+            android:name=".menu_pagos"
+            android:exported="false" />
+        <activity
+            android:name=".menu_informacion"
+            android:exported="false" />
+        <activity
+            android:name=".menu_platos"
+            android:exported="false" />
+        <activity
+            android:name=".menu_principal"
+            android:exported="false" />
+        <activity
+            android:name=".activity_ventana_login"
+            android:exported="false" />
+        <activity
+            android:name=".ventana_reserva"
+            android:exported="false" />
+        <activity
+            android:name=".ventana_crear_cuenta"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

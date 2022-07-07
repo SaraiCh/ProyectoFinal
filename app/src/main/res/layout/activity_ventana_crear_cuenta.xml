@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".ventana_crear_cuenta">
+
+    <TextView
+        android:id="@+id/tv_crearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR CUENTA"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_margin="50dp"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_below="@id/tv_crearCuenta"
+        android:layout_margin="15dp"
+        android:background="#30ffffff"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:layout_below="@id/et_nombre"
+        android:layout_margin="15dp"
+        android:background="#30ffffff"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_below="@id/et_apellido"
+        android:layout_margin="15dp"
+        android:background="#30ffffff"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:layout_below="@id/et_email"
+        android:layout_margin="15dp"
+        android:background="#30ffffff"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/mostrarContraseña"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="100dp"
+        android:onClick="clickCheckBox"
+        android:text="Mostrar Contraseña"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_crear"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_contraseña"
+        android:text="CREAR"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/purple_500"
+        android:onClick="clickIrLogin"/>
+
+</RelativeLayout>

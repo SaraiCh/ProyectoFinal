@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_informacion">
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="INFORMACIÓN"
+        android:textColor="#7FB648"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ubicación:"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/avenida"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/ubicacion"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Mercaderes 425 cercado"
+        android:textColor="@color/black"
+        android:textSize="15dp"></EditText>
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avenida"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Contactos:"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/lista"
+        android:layout_width="364dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/telefono"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#40ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/lista"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Nombre"
+        android:textColor="@color/black"
+        android:textSize="15dp"></EditText>
+
+    <EditText
+        android:id="@+id/ape"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/nom"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Apellido"
+        android:textColor="@color/black"
+        android:textSize="15dp"></EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/ape"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="15dp"></EditText>
+
+    <EditText
+        android:id="@+id/cel"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Telefono celular"
+        android:textColor="@color/black"
+        android:textSize="15dp"></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/llamar_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/cel"
+        android:hint="Llamar"
+        android:onClick="llamarC"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/casa"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cel"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="telefono casa"
+        android:textColor="@color/black"
+        android:textSize="15dp"></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/llamar_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llamar_c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/casa"
+        android:hint="Llamar"
+        android:onClick="llamarT"
+        android:textColorHint="@color/white" />
+
+
+
+</RelativeLayout>
