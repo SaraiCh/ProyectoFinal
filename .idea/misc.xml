@@ -26,7 +26,10 @@
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/debug/res/drawable/ic_menos_.xml" value="0.1585" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1585" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/drawable/ic_borrar.xml" value="0.1585" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_bebidas.xml" value="0.20416666666666666" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_bebidas2.xml" value="0.20416666666666666" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_carrito_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_helados.xml" value="0.19010416666666666" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_interfaz_carrito.xml" value="0.16666666666666666" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_interfaz_hamburguesa.xml" value="0.20416666666666666" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_interfaz_principal_hamburguesa.xml" value="0.16485507246376813" />
@@ -35,6 +38,10 @@
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_intfz_hamburguesa2.xml" value="0.22" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_item_hamburguesa.xml" value="0.22" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_pastas.xml" value="0.19010416666666666" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_piqueos.xml" value="0.20416666666666666" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_piqueos2.xml" value="0.22" />
+        <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/main/res/layout/activity_pizzas.xml" value="0.19010416666666666" />
         <entry key="..\:/backup/Documents/StudioProject}/proyectofinal-feature-cuartoStash/proyectofinal-feature-cuartoStash/app/src/release/res/drawable/ic_menos.xml" value="0.1585" />
       </map>
     </option>
